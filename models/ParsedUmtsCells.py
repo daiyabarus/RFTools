@@ -4,19 +4,19 @@ from utils.to_get import ExclusiveEnum as eEnum
 
 
 class ParsedUmtsCellsEnum(eEnum):
-    utranCell = "utranCell"
-    nodeB = "nodeB"
-    locCode = "locCode"
-    cellId = "cellId"
-    sc = "sc"
-    lac = "lac"
-    rac = "rac"
-    uarfcnUl = "uarfcnUl"
-    uarfcnDl = "uarfcnDl"
-    azimuth = "azimuth"
+    UTRANCELL = "utranCell"
+    NODEB = "nodeB"
+    LOCCODE = "locCode"
+    CELLID = "cellId"
+    SC = "sc"
+    LAC = "lac"
+    RAC = "rac"
+    UARFCNUL = "uarfcnUl"
+    UARFCNDL = "uarfcnDl"
+    AZIMUTH = "azimuth"
     HBW = "HBW"
-    erpSectorStatusDesc = "erpSectorStatusDesc"
-    frequency = "frequency"
+    ERPSECTORSTATUSDESC = "erpSectorStatusDesc"
+    FREQUENCY = "frequency"
 
 
 class ParsedUmtsCellsIndex:
